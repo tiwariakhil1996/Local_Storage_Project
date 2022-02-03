@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="form">
+        <form>
+            <table align="center">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text"   name="txtFullName" placeholder="First name and Last name" required="Please Enter the full name Correctly"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"  name="txtEmail" placeholder="example@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="text"  name="txtMobile" placeholder="Enter the mobile number"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date"  name="txtDate" placeholder="" required></td>
+                </tr>
+                 <tr>
+                    <td>Gender</td>
+                    <td>
+                        Male<input type="radio"  name="txtGender" value="male" checked required>
+                        Female<input type="radio"  name="txtGender" value="female">
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Create a Password</td>
+                    <td><input type="password"  name="txtPassword" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>Confirm Your Password</td>
+                    <td><input type="password"  name="txtConfirmPassword" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <!-- <input type="submit" class="btn btn-success" (click)="submitForm();" value="Sinup">
+                        <input type="reset" value="Reset" class="btn btn-danger"> -->
+                        <button type="submit">Signup</button>
+                    </td>
+                    <label>If you have account?<a routerLink="/signin">SignIn Here</a></label>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
